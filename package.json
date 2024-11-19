@@ -1,0 +1,13 @@
+{
+  "name": "express-blog-intro",
+  "version": "1.0.0",
+  "description": "Primo progetto con Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "author": "Marco Donati",
+  "license": "ISC"
+}
