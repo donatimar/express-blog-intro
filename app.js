@@ -40,6 +40,10 @@ app.get("/", (req, res) => {
   res.json(message);
 });
 
+app.get("/bacheca", (req, res) => {
+  res.json({ posts, conteggio: posts.length });
+});
+
 app.listen(port, () => {
   console.log(`Server in ascolto su http://localhost:${port}`);
 });
