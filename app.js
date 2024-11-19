@@ -41,7 +41,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/bacheca", (req, res) => {
-  res.json({ posts, conteggio: posts.length });
+  res.json({ posts, postCount: posts.length });
 });
 
 app.listen(port, () => {
